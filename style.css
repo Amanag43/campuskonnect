@@ -1,0 +1,44 @@
+/* Custom Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8fafc; /* slate-50 */
+}
+
+.hero-gradient {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)),
+                radial-gradient(at 90% 10%, hsla(216, 98%, 52%, 0.3) 0px, transparent 50%),
+                radial-gradient(at 10% 90%, hsla(28, 95%, 53%, 0.3) 0px, transparent 50%),
+                radial-gradient(at 50% 50%, hsla(355, 96%, 63%, 0.2) 0px, transparent 50%);
+}
+
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.page-section {
+    transition: opacity 0.5s ease;
+}
+
+.glow-button {
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+}
+
+.feature-card {
+     border: 1px solid transparent;
+     transition: border 0.3s ease, background-color 0.3s ease;
+}
+
+.feature-card:hover {
+    border-color: #3b82f6; /* blue-500 */
+    background-color: #eff6ff; /* blue-50 */
+}
+
+.page-hidden {
+    display: none;
+    opacity: 0;
+}
